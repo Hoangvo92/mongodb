@@ -1,4 +1,5 @@
 from flask import Flask
+from flask.ext.mongoengine import MongoEngine
 
 def create_app():
     app = Flask(__name__)
@@ -6,5 +7,6 @@ def create_app():
     
     from user.views import user_app
     app.register_blueprint(user_app)
+    
     return app
     
