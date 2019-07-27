@@ -6,6 +6,11 @@
 {"username": "jorge", name="Jorge", email="xxx"}
 
 
+
+https://us-east-1.console.aws.amazon.com/cloud9/ide/4895eb9bc0174dd08d2281acd5e921de
+
+https://us-east-1.console.aws.amazon.com/cloud9/home/environments/4895eb9bc0174dd08d2281acd5e921de?permissions=owner#
+
 systemLog:
    destination: file
    path: "/home/ubuntu/log/mongod.log"
